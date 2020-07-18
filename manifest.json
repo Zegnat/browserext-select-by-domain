@@ -1,0 +1,27 @@
+{
+  "name": "Select By Domain",
+  "version": "0.1.0",
+  "description": "Select all tabs from the same domain",
+  "icons": {
+      "16": "assets/icon016.png",
+      "24": "assets/icon024.png",
+      "32": "assets/icon032.png"
+  },
+  "developer": {
+      "name": "Martijn van der Ven",
+      "url": "https://vanderven.se/martijn/"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "manifest_version": 2,
+  "permissions": [
+    "tabs",
+    "contextMenus"
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "strict_min_version": "77.0"
+    }
+  }
+}
