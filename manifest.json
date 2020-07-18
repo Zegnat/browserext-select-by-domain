@@ -1,6 +1,6 @@
 {
   "name": "Select By Domain",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Select all tabs from the same domain",
   "icons": {
       "16": "assets/icon016.png",

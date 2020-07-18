@@ -5,7 +5,6 @@ browser.contextMenus.create({
     const url = new URL(tab.url)
     const matcher = (['http:', 'https:'].includes(url.protocol) ? '*://' : url.protocol) + (url.host ? url.host + '/' : '') + '*'
     const tabs = [tab.index].concat((await browser.tabs.query({ windowId: tab.windowId, url: matcher })).map(tab => tab.index))
-    console.log(url, matcher, tabs)
     browser.tabs.highlight({
       windowId: tab.windowId,
       populate: false,
