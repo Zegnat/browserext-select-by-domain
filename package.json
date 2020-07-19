@@ -11,7 +11,6 @@
 			"LICENSE",
 			"README.md",
 			"assets/contextmenu.png",
-			"web-ext-config.js",
 			"package.json",
 			"pnpm-lock.yaml"
 		]
